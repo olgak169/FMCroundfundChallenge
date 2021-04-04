@@ -21,6 +21,13 @@ body {
   background: #eee;
 }
 
+a:active,
+a:focus,
+button:active,
+button:focus {
+  outline: none;
+}
+
 .overlay {
   display: none;
   position: fixed;
@@ -195,6 +202,12 @@ form .form-inputs label span {
   color: #bfbfbf;
 }
 
+form .form-inputs .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 form .form-inputs input {
   padding: 0.8rem 1.2rem;
   border: 1px solid #bfbfbf;
@@ -222,7 +235,6 @@ form .form-inputs input[type="submit"] {
   background: #3cb4ac;
   color: #fff;
   border: 1px solid #3cb4ac;
-  margin-left: 1rem;
 }
 
 form .form-inputs input[type="submit"]:hover {
