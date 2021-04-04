@@ -1,8 +1,3 @@
-let helper = document.getElementById('helper')
-
-window.addEventListener('resize', () => {
-    helper.innerHTML = window.innerWidth
-})
 
 let menuOpen = document.querySelector('.menu-open')
 let menuClose = document.querySelector('.menu-close')
